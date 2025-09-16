@@ -13,7 +13,9 @@ export function useItems(initialItems: Item[] = []) {
 
   const addItem = (name:string) => {
     if (name.trim()) {
-      const newItem: Item = { id: crypto.randomUUID(), name: name.trim() };
+      const capitalized = name.trim().charAt(0).toUpperCase() + name.trim().slice(1);
+
+      const newItem: Item = { id: crypto.randomUUID(), name: capitalized };
       setItems([...items, newItem]);
     }
   };

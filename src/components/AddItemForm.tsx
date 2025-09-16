@@ -22,7 +22,7 @@ export const AddItemForm: React.FC<AddItemFormProps> = ({ addItem }) => {
         placeholder="Введите название"
         className="flex-1 border rounded-xl px-3 py-2 focus:outline-none focus:ring-blue-400" 
       />
-      <button type="submit" className="bg-sky-600 text-white px-4 py-2 rounded-xl hover:bg-blue-600 transition">
+      <button type="submit" className="bg-sky-600 text-white px-4 py-2 rounded-xl hover:bg-sky-800 transition">
         Добавить
       </button>      
     </form>
