@@ -38,10 +38,10 @@
 npm install
 ```
 
-2. Запустить dev-сервер
+2. Запустить локально
 
 ```bash
-npm run dev
+npm start
 ```
 
 Проект будет запущен на http://localhost:3000/.
